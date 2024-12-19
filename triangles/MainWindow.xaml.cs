@@ -27,10 +27,31 @@ namespace triangles
         }
         private void DetermineTriangleType_Click(object sender, RoutedEventArgs e)
         {
-            if (double.TryParse(sideA.Text, out double a) &&
-               double.TryParse(sideB.Text, out double b) &&
-               double.TryParse(sideC.Text, out double c))
+            if (string.IsNullOrWhiteSpace(sideA.Text) || string.IsNullOrWhiteSpace(sideB.Text) || string.IsNullOrWhiteSpace(sideC.Text))
             {
+                MessageBox.Show("Пожалуйста, заполните все поля");
+                return;
+            }
+            if (int.TryParse(sideA.Text, out int a) &&
+               int.TryParse(sideB.Text, out int b) &&
+               int.TryParse(sideC.Text, out int c))
+            {
+                if (a <= 0 || b <= 0 || c <= 0)
+                {
+                    MessageBox.Show("Длины сторон должны быть положительными числами");
+                    return;
+                }
+                if (a + b <= c || a + c <= b || b + c <= a)
+                {
+                    MessageBox.Show("Указанные стороны не могут образовать треугольник");
+                    return;
+                }
+                const double maxAllowedValue = 1000;
+                if (a > maxAllowedValue || b > maxAllowedValue || c > maxAllowedValue)
+                {
+                    MessageBox.Show($"Длины сторон не должны превышать {maxAllowedValue}");
+                    return;
+                }
                 string triangleType;
                 if (a == b && b == c)
                 {
@@ -44,12 +65,11 @@ namespace triangles
                 {
                     triangleType = "Результат: Разносторонний треугольник";
                 }
-
                 result.Text = triangleType;
             }
             else
             {
-                MessageBox.Show("Пожалуйста, введите корректные значения для всех сторон.");
+                MessageBox.Show("Пожалуйста, введите целые числа для всех сторон");
             }
         }
     }
