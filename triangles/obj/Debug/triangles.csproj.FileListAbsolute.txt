@@ -1,0 +1,15 @@
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\bin\Debug\triangles.exe.config
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\bin\Debug\triangles.exe
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\bin\Debug\triangles.pdb
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.csproj.AssemblyReference.cache
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\MainWindow.g.cs
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\App.g.cs
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles_MarkupCompile.cache
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles_MarkupCompile.lref
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\MainWindow.baml
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.g.resources
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.Properties.Resources.resources
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.csproj.GenerateResource.cache
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.csproj.CoreCompileInputs.cache
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.exe
+E:\Учеба\КИТ\Занятия\МДК01.02.Поддержка и тестирование программных модулей\triangles\obj\Debug\triangles.pdb
